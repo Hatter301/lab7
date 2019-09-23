@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,x,y,z,p;
+    cin>>a;
+    x=a/1000;
+    y=(a%1000)/100;
+    z=(a%100)/10;
+    p=a%10;
+    if ((x==p)&&(y==z))
+    cout<<"Истинно";
+    else cout<<"Ложно";
+    return 0;
+}
